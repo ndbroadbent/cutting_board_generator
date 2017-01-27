@@ -16,23 +16,9 @@ class Combiner
 
     image = ImageList.new
 
-    rows = []
-
-    6.times do |r|
-      rows << []
-
-      18.times do |i|
-        available = images.clone
-
-        if r > 0
-          available.delete rows[r - 1][i]
-        end
-
-        if i > 0
-          available.delete rows[r][i - 1]
-        end
-
-        rows[r].push(available.sample)
+    rows = 6.times.map do |r|
+      18.times.map do |i|
+        (i + r).even? ? beech : ((i / (r + 1)).even? ? dualung : redwood)
       end
     end
 
