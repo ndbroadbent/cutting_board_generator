@@ -17,4 +17,6 @@ Generate the cutting board image and open the image: (On Mac, it opens Preview.)
 
 # Example
 
+This is a design for a 18" x 12" cutting board. (If each piece of wood is 1" x 2".)
+
 ![An example cutting board](example_cutting_board.jpg?raw=true "Cutting Board")
