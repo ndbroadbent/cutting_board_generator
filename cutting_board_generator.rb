@@ -11,8 +11,6 @@ class CuttingBoardGenerator
     dualung = Image.read("dualung.png").first  #.crop(0,0,44,44)
     redwood = Image.read("redwood.png").first  #.crop(0,0,44,44)
 
-    images = [beech, dualung, redwood]
-
     rows = 6.times.map do |r|
       18.times.map do |i|
         if (i + r).odd?

@@ -1,6 +1,8 @@
 # Cutting Board Generator
 
-A simple Ruby script that generates end-grain cutting board patterns.
+A small Ruby script that generates end-grain cutting board patterns.
+
+Use this as a "starter" repo. Tweak the wood images and the algorithm to make your own designs.
 
 # Usage
 
